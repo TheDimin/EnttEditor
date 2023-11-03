@@ -29,6 +29,7 @@ This should show you a imgui window like shown below
 The `Examples/ExampleEntityWindow.h`contains an example `TransformComponent` and `NameComponent` which are fully reflected !
 
 1. Within the body of the component Add the `REFLECT()` Macro. For this make sure to include `"EnttEditor/MetaReflect.h"`
+
 ![image](https://github.com/TheDimin/EnttEditor/assets/7473370/55fe2346-6184-446f-a984-574fa67b82d2)
 
 2. in the cpp file we add the `IMPLEMENT_REFLECT_COMPONENT(<CLASS>)` and include `"EnttEditor/MetaReflectImplement.h"` (DO NOT INCLUDE THIS IN THE HEADER)
