@@ -15,7 +15,9 @@ And add custom properties support by the types.
 
 # How to get Started.
 Include `Entt` and `ImGui` in your project.
+
 Include this project in your repo.
+
 If you do not use `GLM` do not include `GlmMetaInspectors`
 
 (Idealy you build your own high level window as it allows you to draw hierachies, But for sake of getting started quickly we provide a demo window !)
